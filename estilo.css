@@ -49,14 +49,14 @@ font-size: 30px;
    		text-align: center;
    		font-weight: bold;
    		font-size: 25px;
-   		color: #000000;
+   		color: black;
    		font-weight: bolder;
    	}
    	footer{
- 	width: 100%;
-    text-align: center;
-    background: url(rodape.jpg);
-    padding: 8px 0;
+ 	   width: 100%;
+      text-align: center;
+      background: url(rodape.jpg);
+      padding: 8px 0;
  	
 
  }

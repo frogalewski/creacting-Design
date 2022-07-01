@@ -1,0 +1,155 @@
+/********barra de navegaçao horizontal*/
+
+body {
+      
+      width: 100vw; 
+      max-width: 1500px;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(73deg, #09d2ff 20%, #d61d9b 80%);
+      
+
+          }
+ul {
+   
+   margin:0 ;
+   padding: 12px;
+   list-style: none;
+   width: 100vw;
+    background: black repeat-x;
+    float: right;
+    
+}
+
+ul li {
+color:black  ;
+font-size: bold;
+display: inline;
+float: right;
+
+
+}
+
+ul a{
+display: block;
+padding: 0 2em;
+line-height: 3em;
+text-decoration: none;
+color: #ffffff;
+font-weight: bold;
+font-size: 30px;
+   }
+
+  
+
+   
+
+      .destaques{
+         text-align: center;
+         font-weight: bold;
+         font-size: 23px;
+         color: white;
+               }
+
+   	.content{
+         height: 510px;
+         max-width: 935px;
+         width: 935vw;
+         border-radius: 20px;
+         overflow: hidden;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -30%);
+      }
+
+      nav{
+         width: 100vw;
+         width-max: 1100px;
+      }
+   	.navigation{
+         position: absolute;
+         button: 30px;
+         left: 50%;
+         transform: translate(-50%);
+         display: flex;
+         color: white;
+         border: 2px;
+         
+
+      }
+   	.bar{
+         width: 50px;
+         height: 17px;
+         border: 2px solid #ffffff;
+         margin: 6px;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: .6s;
+      }
+   	.bar:hover {
+         background: white;
+      }
+   	
+      input {
+        display: none;
+        color: white;
+
+      }
+
+      .slides {
+         display: flex;
+         width: 500vw;
+         max-width: 500%;
+         max-height: 90%;
+         height: 90vw;
+         
+               }
+
+   		   	.slide{
+
+                  max-width: 20%;
+                  transition: .6s;
+               }
+
+   		   	.slide img{
+                  max-width: 100%;
+                  width: 100vw;
+                  height: 100vw;
+                  max-height: 100%;
+                 
+               }
+
+   		   	#slide1:checked ~ .s1{
+   		   		margin-left: 0;
+   		   	}
+
+   		   	#slide2:checked ~ .s1{
+   		   		margin-left: -20%;
+   		   	}
+   		   	#slide3:checked ~ .s1{
+   		   		margin-left: -40%;
+   		   	}
+   		   	#slide4:checked ~ .s1{
+   		   		margin-left: -60%;
+   		   	}
+   		   	#slide5:checked ~ .s1{
+   		   		margin-left: -80%;
+   		   	}
+   		   		
+
+              
+   
+    footer{
+    width: 100%;
+    text-align: center;
+    background: url(rodape.jpg);
+    padding: 8px 0;
+  
+
+ }
+ .copyright{
+  color: #000000;
+  font-size: 20px;
+  margin: 10px;
+ }
